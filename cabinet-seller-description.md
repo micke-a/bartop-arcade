@@ -1,4 +1,4 @@
-# 24" Ply 2 Player Bartop Arcade Cabinet Flat Pack Kit
+## 24" Ply 2 Player Bartop Arcade Cabinet Flat Pack Kit
 
 High Quality, CNC produced Cabinet
 
