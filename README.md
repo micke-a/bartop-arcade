@@ -31,6 +31,17 @@ I will need the sizes for each of the panels either the 5 set or the 8 so max he
 ```
 Rockstar is the vinly provider that the ebay seller recommended
 
+### How to apply
+
+RockStar were super helpful via email providing advice, and they also include an a4 sheet of paper with instructions.
+I watched many youtube videos where people were using the wet method for wood/mdf, but this is not recommended.
+
+* Wood - no water
+* Acryclic - wet method recommended (water + a fiew drops of washing liquids)
+
+Now that I've done it, if you are two people (for the big pices), putting the vinyl on is pretty easy.
+
+
 ## Acrylic
 
 Ordered from https://www.plasticsheets.com/perspex-sheet-acrylic-sheets/ according to sizes in from the ebay listing.
