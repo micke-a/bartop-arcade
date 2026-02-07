@@ -31,6 +31,14 @@ I will need the sizes for each of the panels either the 5 set or the 8 so max he
 ```
 Rockstar is the vinly provider that the ebay seller recommended
 
+## Acrylic
+
+Ordered from https://www.plasticsheets.com/perspex-sheet-acrylic-sheets/ according to sizes in from the ebay listing.
+This place allows you to specify the exact dimensions you want.
+
+* Screen: 570 x 385 x 2mm - £10.54
+* Marquee: 570 x 117 x 2mm - £3.20
+* - shipping £9.95,total cost £23.69
 
 ## Buttons
 Cost £46
