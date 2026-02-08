@@ -37,12 +37,12 @@ RockStar were super helpful via email providing advice, and they also include an
 I watched many youtube videos where people were using the wet method for wood/mdf, but this is not recommended.
 
 * Wood - no water
-* Acryclic - wet method recommended (water + a fiew drops of washing liquids)
+* Acryclic - wet method recommended (water + a few drops of washing liquids)
 
-Now that I've done it, if you are two people (for the big pices), putting the vinyl on is pretty easy.
+Now that I've done it, if you are two people (for the big pieces), putting the vinyl on is pretty easy.
 
 
-## Acrylic
+## Acrylic sheets for screen cover and marquuee
 
 Ordered from https://www.plasticsheets.com/perspex-sheet-acrylic-sheets/ according to sizes in from the ebay listing.
 This place allows you to specify the exact dimensions you want.
@@ -58,6 +58,13 @@ After having looked around all over the place and reading up on sticks and butto
 simply bought "EG STARTS 2 Player Arcade Buttons Arcade Contest DIY Retropie Cabinet Kit PC Game + LED Chrome Plating Arcade Buttons Mame Raspberry Pi Game Project" from Amazon
 
 ![bottons](images/buttons-1.jpg)
+
+## Marquee back lighting
+
+Had some old left over COB LED strips from when I changed them in the kitchen; this is what I plan to try and use https://www.amazon.co.uk/dp/B0BVR755VK?th=1 .
+If ordering a new one I'd probably go for the more bright white option.
+
+What I'm missing is a 12V DC power adapter, ordering one of these https://www.amazon.co.uk/dp/B019RO949C 
 
 ## Raspberry Pi
 Have an old PI 4B at home, will start with this one.
