@@ -81,39 +81,17 @@ Plugged the pi into a monitor and it started up just fine.
 
 
 ## Monitor
-Planning to wait with buying this until I can properly measure the cabinet.
+
+Cost £79
 
 Cabinet accepts flat screen monitor Size, up to 56.4cm wide x 35.5cm high
 (i.e. most 24" widescreen)
 
-Candidates
+Bought this one https://www.scan.co.uk/products/238-aoc-24b3ca2-monitor-ips-1920-x-1080-1ms-adaptivesync-100hz-20m1-250cd-m-hdmi-usb-c
 
-https://ao.com/product/umqq0ee104-acer-nitro-qg241yx1bmiipx-gaming-monitor-black-105788-766.aspx
+Dimensions without stand: 542.4 x 316.2 x 44.6 (WxHxD)
 
-
-Dimensions (cm): H32.4 x W54.1 x D6.6
-
-
-https://www.scan.co.uk/products/245-msi-pro-mp251w-e2-business-monitor-ips-1920x1080-adaptive-sync-1ms-120hz-15001-300cd-m-hdmi-dp-v
-
-£69
-
-Speakers 2Wx2
-
-556.89 x 42.94 x 321.49 (WxHxD)
-
-https://www.scan.co.uk/products/238-benq-gw2490-monitor-ips-1920x1080-5ms-100hz-13001-250cd-m-hdmi-dp
-
-£80
-
-Speakers 2Wx2
-
-540 x 343 x 61 (WxHxD)
-
-
-https://www.scan.co.uk/products/iiyama-24-g-master-g2441hsu-b1-144hz-hd-gaming-display
-
-£89
+TODO: notes about settings to automatically power on, does it support what is needed?
 
 ## Speakers
 
