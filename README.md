@@ -1,5 +1,7 @@
 # Bartop Arcade Build
-Notes and links used to build 
+
+Notes about what I end up doing and buying while working through this project.
+Mainly notes for myself, but if others find it hopefully it will answer some questions and be helpful. 
 
 ## Links
 
