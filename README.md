@@ -3,6 +3,21 @@
 Notes about what I end up doing and buying while working through this project.
 Mainly notes for myself, but if others find it hopefully it will answer some questions and be helpful. 
 
+## Table of Contents
+
+- [Links](#links)
+- [Cabinet](#cabinet)
+  - [Cabinet Vinyl](#cabinet-vinyl)
+  - [Bezel vinyl](#bezel-vinyl)
+  - [How to apply](#how-to-apply)
+- [Acrylic sheets for screen cover and marquee](#acrylic-sheets-for-screen-cover-and-marquee)
+- [Buttons](#buttons)
+- [Marquee back lighting](#marquee-back-lighting)
+- [Raspberry Pi](#raspberry-pi)
+  - [Software Install](#software-install)
+- [Monitor](#monitor)
+- [Speakers](#speakers)
+
 ## Links
 
 https://www.instructables.com/2-Player-Bartop-Arcade-Machine-Powered-by-Pi/
@@ -16,8 +31,17 @@ Simple option of buying ready cut flatpack kit from eBay.
 Bought from the seller [ell-s](https://www.ebay.co.uk/sch/i.html?item=156682869223&rt=nc&_ssn=ell-s) which sells a decently priced build with good reviews.
 ![flagpack cabinet](images/cabinet-1.png)
 
-### Vinyl wrap
+### Cabinet Vinyl
 Cost £77
+
+Reached out to and double-checked sizing with Rockstar print/arcade first regarding the cabinet sizing and got this reply.
+
+```
+Yes those sizes will be fine to order.
+I will need the sizes for each of the panels either the 5 set or the 8 so max heights and widths for each please
+```
+
+Rockstar is the vinly provider that the ebay seller recommended
 
 Bought the [Sega Nintendo Full Set](https://www.rockstarprint.co.uk/full-set-bartop-.html)
 
@@ -25,13 +49,21 @@ Bought the [Sega Nintendo Full Set](https://www.rockstarprint.co.uk/full-set-bar
 
 ![Wrap1](images/vinyl-1.png)
 
+### Bezel vinyl
+Cost £21 (of which £7 is shipping)
 
-Reached out to and double-checked sizing with Rockstar print/arcade first regarding the cabinet sizing and got this reply.
-```
-Yes those sizes will be fine to order.
-I will need the sizes for each of the panels either the 5 set or the 8 so max heights and widths for each please
-```
-Rockstar is the vinly provider that the ebay seller recommended
+Ordered this from RockStar Print as well, https://www.rockstarprint.co.uk/bezel.html .
+
+What is available by default are all square in dimension, but the above page says to email Sales@rockstarprint.co.uk for custom measures.
+
+My bezel dimensions, given the monitor panel is 540 mm wide and 310 mm high 
+
+- width: 570 mm
+- height: 385 mm 
+- top/bottom border: 15 mm
+- right/left border: 38.5 mm
+
+
 
 ### How to apply
 
@@ -44,14 +76,16 @@ I watched many youtube videos where people were using the wet method for wood/md
 Now that I've done it, if you are two people (for the big pieces), putting the vinyl on is pretty easy.
 
 
-## Acrylic sheets for screen cover and marquuee
+## Acrylic sheets for screen cover and marquee
+Cost £24
 
 Ordered from https://www.plasticsheets.com/perspex-sheet-acrylic-sheets/ according to sizes in from the ebay listing.
 This place allows you to specify the exact dimensions you want.
 
 * Screen: 570 x 385 x 2mm - £10.54
 * Marquee: 570 x 117 x 2mm - £3.20
-* - shipping £9.95,total cost £23.69
+* shipping £9.95,
+* Total cost £23.69
 
 ## Buttons
 Cost £46
@@ -62,13 +96,16 @@ simply bought "EG STARTS 2 Player Arcade Buttons Arcade Contest DIY Retropie Cab
 ![bottons](images/buttons-1.jpg)
 
 ## Marquee back lighting
+Cost £9
 
 Had some old left over COB LED strips from when I changed them in the kitchen; this is what I plan to try and use https://www.amazon.co.uk/dp/B0BVR755VK?th=1 .
 If ordering a new one I'd probably go for the more bright white option.
 
-What I'm missing is a 12V DC power adapter, ordering one of these https://www.amazon.co.uk/dp/B019RO949C 
+What I'm missing is a 12V DC power adapter, got one of these https://www.amazon.co.uk/dp/B019RO949C which works fine.
 
 ## Raspberry Pi
+Cost ? had one laying about
+
 Have an old PI 4B at home, will start with this one.
 
 ### Software Install
@@ -97,4 +134,4 @@ TODO: notes about settings to automatically power on, does it support what is ne
 
 ## Speakers
 
-Starting with the monitor's built-in speakers, will see later if we upgrade. 
+Starting with the monitor's built-in speakers, will see later if we upgrade.
