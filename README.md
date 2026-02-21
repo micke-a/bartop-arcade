@@ -13,10 +13,11 @@ Mainly notes for myself, but if others find it hopefully it will answer some que
 - [Acrylic sheets for screen cover and marquee](#acrylic-sheets-for-screen-cover-and-marquee)
 - [Buttons](#buttons)
 - [Marquee back lighting](#marquee-back-lighting)
-- [Raspberry Pi](#raspberry-pi)
-  - [Software Install](#software-install)
 - [Monitor](#monitor)
 - [Speakers](#speakers)
+- [Raspberry Pi](#raspberry-pi)
+  - [Software Install](#software-install)
+- [Games](#games)
 
 ## Links
 
@@ -103,20 +104,6 @@ If ordering a new one I'd probably go for the more bright white option.
 
 What I'm missing is a 12V DC power adapter, got one of these https://www.amazon.co.uk/dp/B019RO949C which works fine.
 
-## Raspberry Pi
-Cost ? had one laying about
-
-Have an old PI 4B at home, will start with this one.
-
-### Software Install
-
-First I tried the raspberry pi manager (https://www.raspberrypi.com/software/), but recently they stopped providing the RetroPie as an image option.
-
-So instead I downloaded the image from here https://retropie.org.uk/download/ .
-
-Then used the raspberry pi manager to install the RetroPie image on an SD card.
-
-Plugged the pi into a monitor and it started up just fine.
 
 
 ## Monitor
@@ -135,3 +122,81 @@ TODO: notes about settings to automatically power on, does it support what is ne
 ## Speakers
 
 Starting with the monitor's built-in speakers, will see later if we upgrade.
+
+Ordered this from Amazon https://www.amazon.co.uk/dp/B00F45E3D6 , thought I'd try somehting simple which doesn't require an amp. 
+This appears good enough.
+
+
+## Raspberry Pi
+Cost ? had one laying about
+
+Have an old PI 4B at home, will start with this one.
+
+### Software Install
+
+First I tried the raspberry pi manager (https://www.raspberrypi.com/software/), but recently they stopped providing the RetroPie as an image option.
+
+So instead I downloaded the image from here https://retropie.org.uk/download/ .
+
+Then used the raspberry pi manager to install the RetroPie image on an SD card.
+
+Plugged the pi into a monitor and it started up just fine.
+
+### Enable SSH
+
+As easy as creating a file called `ssh.txt` or `ssh` on the root of the SD card.
+
+### WiFi setup
+See https://retropie.org.uk/docs/Wifi/#connecting-to-wifi-without-a-keyboard-raspbian-stretch
+
+A few different options but I did the one where I create a file called `wpa_supplicant.conf` on the root of the SD card,
+with this content
+
+```shell
+### Important: Change country=US to your country
+country=US
+ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
+update_config=1
+
+# RETROPIE CONFIG START
+network={
+    ssid="your_real_wifi_ssid"
+    psk="your_real_password"
+}
+# RETROPIE CONFIG END
+```
+
+Port: `22`
+
+Username: `pi`
+
+Password: `raspberry`
+
+
+### Some useful commands and scripts
+
+With keyboard connected pressing `F4` will open a terminal.
+
+Reboot: `sudo reboot`
+
+Shutdown: `sudo shutdown -h now`
+
+Retropie Setup Script: `sudo /home/pi/RetroPie-Setup/retropie_setup.sh`
+
+Things to run at startup: `/opt/retropie/configs/all/autostart.sh`
+
+## Games
+
+Got myself a 64GB USB memory stick to store game roms on. https://retropie.org.uk/docs/Transferring-Roms/ has information about how your USB memory stick needs to be formatted.
+ 
+
+### Running games from USB memory stick
+
+By default RetroPie will copy roms from the USB stick to the SD card, but appears it can be configured to run from the USB stick directly. See https://retropie.org.uk/docs/Running-ROMs-from-a-USB-drive/ 
+
+
+### USB memory stick folder structure
+
+````
+retropie/roms/$CONSOLE
+```
