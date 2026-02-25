@@ -99,7 +99,7 @@ simply bought "EG STARTS 2 Player Arcade Buttons Arcade Contest DIY Retropie Cab
 ## Marquee back lighting
 Cost £9
 
-Had some old left over COB LED strips from when I changed them in the kitchen; this is what I plan to try and use https://www.amazon.co.uk/dp/B0BVR755VK?th=1 .
+Had some old leftover COB LED strips from when I changed them in the kitchen; this is what I plan to try and use https://www.amazon.co.uk/dp/B0BVR755VK?th=1 .
 If ordering a new one I'd probably go for the more bright white option.
 
 What I'm missing is a 12V DC power adapter, got one of these https://www.amazon.co.uk/dp/B019RO949C which works fine.
@@ -108,6 +108,7 @@ What I'm missing is a 12V DC power adapter, got one of these https://www.amazon.
 
 ## Monitor
 
+### The Moniitor
 Cost £79
 
 Cabinet accepts flat screen monitor Size, up to 56.4cm wide x 35.5cm high
@@ -118,6 +119,20 @@ Bought this one https://www.scan.co.uk/products/238-aoc-24b3ca2-monitor-ips-1920
 Dimensions without stand: 542.4 x 316.2 x 44.6 (WxHxD)
 
 TODO: notes about settings to automatically power on, does it support what is needed?
+
+### Monitor mount
+Cost £12.99
+
+Ordered this low profile monitor mount from Amazon https://www.amazon.co.uk/dp/B0C161XLS5 ,
+took a bit of a chance and it is ok. 
+
+Cons are 
+
+- doesn't "snap in" so if you turned the arcade upside down it would be a bit of a problem ;-)
+- It is also not holding it perfectly straight, not really bad but not perfect
+- The back mount is not vesa 100 (where it attaches to the arcade bit) so need to drill a few new holes.
+
+I now think I should have skipped the mount and just mounted directly to the wooden bar which comes with the cabinet!
 
 ## Speakers
 
