@@ -14,10 +14,17 @@ Mainly notes for myself, but if others find it hopefully it will answer some que
 - [Buttons](#buttons)
 - [Marquee back lighting](#marquee-back-lighting)
 - [Monitor](#monitor)
+  - [The Moniitor](#the-moniitor)
+  - [Monitor mount](#monitor-mount)
 - [Speakers](#speakers)
 - [Raspberry Pi](#raspberry-pi)
   - [Software Install](#software-install)
+  - [Enable SSH](#enable-ssh)
+  - [WiFi setup](#wifi-setup)
+  - [Some useful commands and scripts](#some-useful-commands-and-scripts)
 - [Games](#games)
+  - [Running games from USB memory stick](#running-games-from-usb-memory-stick)
+  - [USB memory stick folder structure](#usb-memory-stick-folder-structure)
 
 ## Links
 
