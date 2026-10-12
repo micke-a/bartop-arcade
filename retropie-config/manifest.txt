@@ -1,0 +1,21 @@
+# Paths on the Pi that are version controlled (directories are walked recursively).
+# Anything matching exclude.txt is skipped. Paths that don't exist are ignored,
+# so both Buster and Bookworm boot config locations can be listed.
+
+# RetroPie: RetroArch, per-system emulator choices, EmulationStation, runcommand,
+# controller autoconfig, autostart.sh
+/opt/retropie/configs
+
+# Pi firmware / display / audio settings
+/boot/config.txt
+/boot/firmware/config.txt
+
+# Network share for copying ROMs
+/etc/samba/smb.conf
+
+# USB ROM stick auto-mount
+/etc/usbmount/usbmount.conf
+
+# Wi-Fi: holds your network name and password. They would be templated, but it's
+# left out by default. Uncomment only if you really want it tracked.
+# /etc/wpa_supplicant/wpa_supplicant.conf

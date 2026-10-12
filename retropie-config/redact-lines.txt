@@ -1,0 +1,6 @@
+# Files that are tracked, but whose lines mentioning a ROM name stay on the Pi only
+# (find -path style globs, without the leading /). On push, those lines are taken
+# from the Pi's current copy, so per-game settings are never lost.
+
+# FBNeo / MAME per-game DIP switches, e.g. fbneo-dipswitch-<rom>-Free_play
+*/retroarch-core-options.cfg

@@ -1,0 +1,63 @@
+# find -path globs (matched against the path without the leading /).
+# These are left on the Pi: per-game data, game lists, scraped media, saves,
+# logs and big stock asset folders. `rpcfg.py check` refuses to commit them.
+
+# EmulationStation: game lists, scraped art, collections, themes, logs
+*/emulationstation/gamelists
+*/emulationstation/downloaded_images
+*/emulationstation/downloaded_media
+*/emulationstation/collections
+*/emulationstation/themes
+*/emulationstation/es_log.txt*
+
+# RetroArch runtime data and stock assets
+*/retroarch/assets
+*/retroarch/cheats
+*/retroarch/cores
+*/retroarch/database
+*/retroarch/downloads
+*/retroarch/logs
+*/retroarch/overlay
+*/retroarch/overlays
+*/retroarch/playlists
+*/retroarch/records
+*/retroarch/saves
+*/retroarch/screenshots
+*/retroarch/shaders
+*/retroarch/states
+*/retroarch/system
+*/retroarch/thumbnails
+
+# Per-ROM emulator choices made in the runcommand menu (keyed by ROM name)
+opt/retropie/configs/all/emulators.cfg
+
+# Standalone MAME / AdvMAME per-game folders
+opt/retropie/configs/mame*/cfg
+opt/retropie/configs/mame*/diff
+opt/retropie/configs/mame*/hi
+opt/retropie/configs/mame*/ini
+opt/retropie/configs/mame*/inp
+opt/retropie/configs/mame*/memcard
+opt/retropie/configs/mame*/nvram
+opt/retropie/configs/mame*/snap
+opt/retropie/configs/mame*/sta
+
+# File types that are never config
+*.lpl
+*.srm
+*.state
+*.state[0-9]*
+*.auto
+*.log
+*.bak
+*.rp-dist
+*.png
+*.jpg
+*.mp4
+
+# N64 emulators' stock per-game compatibility databases: they list most N64 games
+# by name, and aren't something you'd normally edit
+opt/retropie/configs/n64/mupen64plus.ini
+opt/retropie/configs/n64/GLideN64.custom.ini
+opt/retropie/configs/n64/RiceVideoLinux.ini
+opt/retropie/configs/n64/gles2n64rom.conf

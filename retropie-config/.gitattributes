@@ -1,0 +1,2 @@
+# Files are copied verbatim to the Pi, so keep Linux line endings even on Windows.
+* text=auto eol=lf

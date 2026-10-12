@@ -1,0 +1,3 @@
+# Host details, secret values, ROM name cache. Never commit.
+.local/
+__pycache__/
