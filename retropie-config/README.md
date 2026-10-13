@@ -165,3 +165,6 @@ For NeoGeo / arcade: the romset version has to match the emulator (e.g. lr-fbneo
 current FBNeo set, lr-mame2003-plus wants the 0.78-plus set), and NeoGeo needs `neogeo.zip`
 from the matching set next to the games or in `~/RetroPie/BIOS`. Set the system default in
 `<system>/emulators.cfg` instead of picking per game, so the choice is tracked here.
+
+FBNeo "romset is missing files" errors listing only BIOS files (`sp-s3.sp1`, `sfix.sfix`, ...)
+mean `neogeo.zip` is missing or outdated: see [troubleshooting/neogeo](../troubleshooting/neogeo/README.md).
