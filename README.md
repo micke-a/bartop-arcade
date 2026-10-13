@@ -195,9 +195,19 @@ Username: `pi`
 Password: `raspberry`
 
 
+### Speaker hum
+
+This didn't fix it when upating `/boot/config.txt`
+
+```shell
+audio_pwm_mode=2
+disable_audio_dither=1
+```
+
+
 ### Some useful commands and scripts
 
-With keyboard connected pressing `F4` will open a terminal.
+When connecting a keyboard, pressing `F4` will open a terminal.
 
 Reboot: `sudo reboot`
 
@@ -219,6 +229,46 @@ By default RetroPie will copy roms from the USB stick to the SD card, but appear
 
 ### USB memory stick folder structure
 
-````
+```
 retropie/roms/$CONSOLE
+```
+
+### NeoGeo error
+
+Not sure how to get neogeo and arcades to work... need to do some research.
+
+Looks like knowing which Romset I have is important and having the right emulator which support it selected and maybe some kind of emulator bios in the right place? Hmmm.
+
+
+### Samba setup
+
+To allow us to simply copy games directly ont the PI without having to take out the USB memory stick, we setup a shared folder using Samba
+
+This is configured in:
+
+```
+ /etc/samba/smb.conf
+```
+
+I'm being super trusy here since it is on our local home network without any access from the outside world. Want my kids to simply be able to copy paste without any fuss.
+
+```
+[roms-usb0]
+comment = roms-usb0
+path = "/media/usb0/retropie-mount/roms/"
+writeable = yes
+guest ok = yes
+create mask = 0644
+directory mask = 0755
+force user = pi
+public = yes
+
+```
+
+This should give no password access to `\\retropie\roms-usb0\`
+
+
+I also added a `pi` user:
+```
+sudo smbpasswd -a pi
 ```
